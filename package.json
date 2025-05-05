@@ -5,7 +5,7 @@
 	"main": "backend/index.js",
 	"scripts": {
 		"dev": "cross-env NODE_ENV=development nodemon backend/index.js",
-        "start": "cross-env NODE_ENV=production node backend/index.js"	,	
+		"start": "cross-env NODE_ENV=production node backend/index.js",
 		"build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
 	},
 	"keywords": [],
@@ -21,7 +21,9 @@
 		"express": "^4.19.2",
 		"jsonwebtoken": "^9.0.2",
 		"mailtrap": "^3.4.0",
-		"mongoose": "^8.5.2"
+		"mongoose": "^8.5.2",
+		"simple-peer": "^9.11.1",
+		"ws": "^8.18.1"
 	},
 	"devDependencies": {
 		"cross-env": "^7.0.3",
